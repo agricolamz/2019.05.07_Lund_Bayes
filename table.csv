@@ -1,0 +1,13 @@
+who?,what?,how long?,background,,,bachelor 3 y.,master 1 y.,re-qualification,data analysis school
+bachelor 3 y.,introduction to R and stats,¼ ed. y.,"math, Python",,,8,2,6,9
+bachelor 3 y.,advanced stats,¼ ed. y.,"math, Python",,Bayesian inference,+,+,+,+
+master 1 y.,introduction to R and stats,½ ed. y.,"(math, Python)",,Binomial data,+,+,+,+
+re-qualification,introduction to R and stats,¼ ed. y.,Python,,Credible interval,+,+,+,+
+data analysis school,different topics,1-2 weeks,"R, …",,Bayes factor,+,-,+,+
+,,,,,Empirical Bayes Estimation,+,-,+,+
+who?,what?,how long?,background,,Normal data,+,-,-,+
+bachelor 3 y.,introduction to R and stats,0 classes,"math, Python",,STAN,-,-,-,+
+bachelor 3 y.,advanced stats,8 classes,"math, Python",,,,,,
+master 1 y.,introduction to R and stats,2 classes,"(math, Python)",,,,,,
+re-qualification,introduction to R and stats,6 classes,Python,,,,,,
+data analysis school,different topics,9 classes,"R, …",,,,,,

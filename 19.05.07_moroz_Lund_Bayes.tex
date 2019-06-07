@@ -1,0 +1,109 @@
+\documentclass[13pt, t]{beamer}
+% Presento style file
+\usepackage{config/presento}
+
+% custom command and packages
+\input{config/custom-command}
+
+\usepackage{color, colortbl}
+
+\title{\Large \hspace{-0.5cm} What causes successful learning in Bayesian methods?}
+\author[shortname]{George Moroz}
+\institute[shortinst]{Linguistic Convergence Laboratory, NRU HSE, Moscow, Russia}
+\date{\begin{center} 7 May 2019 \bigskip \\ {{\color{colorblue} \href{https://indico.esss.lu.se/event/1191/}{\large Bayes@Lund2019} \\ Lund University, Sweden}\\ \vfill Presentation is available here: {\large \href{https://tinyurl.com/yyj72dta}{tinyurl.com/yyj72dta} \hfill \includegraphics[height = 2.5cm]{images/01_qrcode}}} \end{center}}
+
+\begin{document}
+
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+\begin{frame}{So you are a linguist?}
+\begin{itemize}
+\item How many languages do you speak? \pause \\ \href{https://allthingslinguistic.com/post/48473292525/why-linguists-hate-being-asked-how-many-languages}{Why linguists hate being asked how many languages they know} \pause
+\item How to say \textit{chicken} in Portuguese? \pause
+\item (in a bus) What language do those two speak? \pause
+\item What is the origin of the word \textit{beefeater}?\pause
+\item How to spell the word \textit{11}? \pause No, I mean \dots in French! \pause
+\item Wow! Linguists use \LaTeX\ and R? What do you need those for? \pause
+\end{itemize}
+\vfill
+{\large Unfortunately, those stereotypes are everywhere!\\
+\href{https://allthingslinguistic.com/post/104621609259/how-to-explain-linguistics-to-your-friends-and}{How to explain linguistics to your friends and family this holiday season}}
+\end{frame}
+
+\begin{frame}{My courses}
+\begin{tabular}{llll}
+who?                 & what?                        & background     & how long? \\ \hline
+bachelor 3 y.        & intro to R and stats $^1$ & math, Python   & ¼ ed. y. \pause \\
+bachelor 3 y.        & advanced stats               & math, Python, R  & ¼ ed. y.   \pause\\
+master 1 y.          & intro to R and stats   & (math, Python) & ½ ed. y. \pause\\
+re-qualification     & intro to R and stats   & (Python)        & ¼ ed. y. \pause\\
+data analysis school & different topics            & R, …       & 1 weeks 
+\end{tabular}
+\vfill
+{$^1$ This became \href{https://openedu.ru/course/hse/RLING/}{an online course}!}
+\end{frame}
+
+\begin{frame}{But which of them include Bayesian methods?}
+\begin{tabular}{llll}
+who?                 & what?                        & background     & how long? \\ \hline
+bachelor 3 y.        & intro to R and stats & math, Python   & 0  classes\\
+\rowcolor{colorblue}
+bachelor 3 y.        & advanced stats               & math, Python, R  & 8 classes   \\
+\rowcolor{colorblue}
+master 1 y.          & intro to R and stats   & (math, Python) & 2 classes \\
+\rowcolor{colorblue}
+re-qualification     & intro to R and stats   & (Python)        & 4 classes \\
+\rowcolor{colorblue}
+data analysis school & different topics            & R, …       & 9 classes
+\end{tabular}
+\vfill
+One class is 90 minutes
+\end{frame}
+
+\begin{frame}{Topics covered by course}
+\begin{tabular}{lcccc}
+                           & b. 3 y. & m. 1 y. & re-qual. & DA school \\
+(classes)                           & (8)             & (2)           & (6)                & (9)               \\ \hline     
+Bayesian inference         & +             & +           & +                & +                    \\
+Binomial data              & +             & +           & +                & +                    \\
+Credible interval          & +             & +           & +                & +                    \\
+Bayes factor               & +             & --           & +                & +                    \\
+Emp. Bayes Est. & +             & --           & +                & +                    \\
+Normal data                & +             & --           & --                & +                    \\
+STAN                       & --             & --           & --                & +  \pause \\ \hline
+Informal rating of groups: & 3 & 4 & 1 & 2 
+\end{tabular}
+\pause
+\vfill
+How could we explain this rating?
+\end{frame}
+
+\begin{frame}{How could we explain this rating?}
+\begin{itemize}
+\item Bayesian statistics is the only topic for the whole course \pause
+\item Students' motivation\pause
+\item Lack of experience in frequentist statistics?
+\end{itemize}
+I don't know...
+\end{frame}
+
+\framepic{images/03_legs}{\vspace{-0.2cm} Is it possible to answer with experiment?}
+
+\begin{frame}{Is it possible to answer with experiment?}
+\begin{itemize}
+\item Programs are not so flexible
+\item Academic Supervisors are not always open to innovations
+\item It is important to understand works written within frequentist statistics
+\item \dots \pause
+\item It is unethical!
+\end{itemize}
+\end{frame}
+
+\framecard[colorblue]{{\color{colorwhite} \Large Send me a letter!\\
+agricolamz@gmail.com\\ 
+\vfill Presentation is available here: \\tinyurl.com/yyj72dta\\
+\vfill  \includegraphics[height = 4cm]{images/02_qrcode}}}
+
+\end{document}
